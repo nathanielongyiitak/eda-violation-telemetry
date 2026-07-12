@@ -1,0 +1,36 @@
+============================================================================
+=== CALIBRE::DRC-F SUMMARY REPORT
+============================================================================
+Execution Date/Time: Friday July 3 22:54:15 2026
+Rule File Pathname: /cad/pdk/tsmc16/rules/calibre.drc
+Top Cell: CHIP_TOP_AMBA
+----------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+----------------------------------------------------------------------------
+WARNING: Empty check "MET1.DN.1" omitted from execution loop.
+----------------------------------------------------------------------------
+--- RESULTS GENERATED
+----------------------------------------------------------------------------
+M1.SP.1 (Min Spacing Metal1)
+  TOTAL Results Generated: 2
+  Layer: 45 (MET1)
+  Type: SPACING
+  Vertices: 4
+    45.1200 120.3450
+    45.1200 120.6450
+    45.4200 120.6450
+    45.4200 120.3450
+  Vertices: 4
+    88.9000 -12.4500
+    89.2000 -12.4500
+    89.2000 -12.1500
+    88.9000 -12.1500
+VIA2.DN.4 (Density Permutation Via2)
+  TOTAL Results Generated: 1
+  Layer: 51 (VIA2)
+  Type: DENSITY [Rule: Min 15%, Max 45%, Found: 12.4%]
+  Vertices: 4
+    0.0000 0.0000
+    0.0000 50.0000
+    50.0000 50.0000
+    50.0000 0.0000
