@@ -10,14 +10,6 @@ def get_db_collection(uri="mongodb://localhost:27017/", db_name="eda_verificatio
     return db[coll_name]
 
 def setup_esr_indices(collection):
-    """
-    TASK 2: Programmatically build the compound index.
-    Apply the Equality -> Sort -> Range (ESR) rule strictly.
-    Target Query: 
-      - Match specific layer ('err_lay') [Equality]
-      - Sort alphabetically by error type ('err_type') [Sort]
-      - Filter by high vertex counts ('err_vertices') [Range]
-    """
     print("[*] Engineering compound index structures...", file=sys.stderr)
     
     # IMPLEMENT HERE: Define the correct compound index tuple sequence
